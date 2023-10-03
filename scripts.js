@@ -1,1 +1,14 @@
 console.log(document.title);
+const titulo = document.querySelector("#gen-1");
+titulo.replaceChild("Generasión 1 Pokimon");
+const fondo = document.querySelector(".infocard-list-pkmn-lg");
+fondo.style.backgroundColor = "green";
+const url = document.location.href;
+console.log(url);
+const dominio = document.location.hostname;
+console.log(dominio);
+const nodos = document.querySelectorAll(".infocard-lg-img");
+console.log(nodos);
+document.querySelectorAll(".infocard-lg-img").src = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
+const voladores = document.querySelector("infocard-lg-data text-muted >.itype flying");
+voladores.style.backgroundColor = "blue";
